@@ -1,0 +1,23 @@
+//컴퓨터학과, 20201704, 이현아
+public class Lion extends Animal{
+	private int legs = 4;
+	
+	public void setLegs(int legs) {this.legs = legs;}
+	public int getLegs(int legs) {return legs;}
+	
+	void roar() {
+		System.out.print("roar()가 호출되었음");
+	}
+	void roar2() {
+		eat();
+		System.out.print(" : ");
+		roar();
+	}
+	public String toString() {
+		String rslt = "";
+		rslt += "몸무게: " + String.format("%.2f", getWeight()) + "kg - ";
+		rslt += "그림 설명: " + picture + " - ";
+		rslt += "다리: " + legs + "개"+ "\n";
+		return rslt;
+	}
+}

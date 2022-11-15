@@ -1,0 +1,18 @@
+package universe;
+
+import planet.A;
+
+public class D extends A{
+	void accessTest() {
+		System.out.println(pub);
+		System.out.println(pro);
+		System.out.println(def);
+		System.out.println(prv);
+		
+		A aobj = new A();
+		System.out.println(aobj.pro);
+		
+		F fobj = new F();
+		fobj.accessTest();
+	}
+}

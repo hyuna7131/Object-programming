@@ -1,0 +1,33 @@
+//컴퓨터학과, 20201704, 이현아
+public class Practice15 {
+
+	public static void main(String[] args) {
+		int count = 0;
+		
+		for(int i=1; i<= 100; i += 3) {
+			System.out.print(i + "\t");
+			
+			count++;
+						
+			if(count % 5 == 0) {
+				System.out.print("\n");
+			}
+		}
+		System.out.println("\n");
+		
+		int i = 1;
+		while(i<= 100) {
+			System.out.print(i + "\t");
+			
+			count++;
+			if(count % 5 == 0) {
+				System.out.print("\n");
+			
+			i += 3;
+			
+		}
+		
+
+	}
+
+}

@@ -1,0 +1,15 @@
+//컴퓨터학과, 20201704, 이현아
+public class Date {
+	int year;
+	int month;
+	int day;
+	
+	public String toString() {
+		System.out.print("당신의 생일은 + year + "년 " + month + "월 " + day + "일입니다."); 
+		
+		System.out.print("당신의 생일은 + year + "년 " + month + "월 " + day + "일입니다.");
+		
+		System.out.print("당신의 생일은 + year + "년 " + month + "월 " + day + "일입니다.");
+		
+	}
+}

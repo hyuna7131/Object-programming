@@ -1,0 +1,35 @@
+//컴퓨터학과, 20201704, 이현아
+import java.util.Scanner;
+public class Practice48 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		Date birthday = new Date();
+		Date adultday = new Date();
+		int year = sc.nextInt();
+        int month = sc.nextInt();
+        int day = sc.nextInt();
+		
+		System.out.print("태어난 년도를 입력하세요: ");
+		birthday.setYear(year);
+		adultday.setYear(birthday.getYear() + 20);
+				
+		System.out.print("태어난 월을 입력하세요: ");
+		birthday.setMonth(month);
+		adultday.setMonth(birthday.getMonth());
+		
+		System.out.print("태어난 날짜를 입력하세요: ");
+		birthday.setDay(day);
+		adultday.setDay(birthday.getDay());
+		
+		String s1 = birthday.toString();
+		String s2 = adultday.toString();
+		
+		System.out.println("당신의 생일은 " + s1 + "입니다.");
+		System.out.println("당신의 성년일은 " + s2 + "입니다.");
+		
+		sc.close();
+
+	}
+
+}

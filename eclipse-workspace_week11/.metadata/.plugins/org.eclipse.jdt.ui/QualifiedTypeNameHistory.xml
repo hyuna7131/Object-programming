@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="game.Dice"/>
+    <fullyQualifiedTypeName name="fruit.Melon"/>
+    <fullyQualifiedTypeName name="nofruit.Potato"/>
+    <fullyQualifiedTypeName name="fruit.Food"/>
+</qualifiedTypeNameHistroy>

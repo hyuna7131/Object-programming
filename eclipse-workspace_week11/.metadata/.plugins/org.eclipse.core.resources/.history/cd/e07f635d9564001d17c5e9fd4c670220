@@ -1,0 +1,16 @@
+package universe;
+
+import planet.A;
+
+public class E {
+	void acessTest() {
+		A aobj = new A();
+		System.out.println(aobj.pub);
+		System.out.println(aobj.pro);
+		System.out.println(aobj.def);
+		System.out.println(aobj.prv);
+		
+		F fobj = new F();
+		fobj.accessTest();
+	}
+}
